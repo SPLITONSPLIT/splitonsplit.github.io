@@ -1,6 +1,6 @@
 ﻿function I(a){ return document.getElementById(a); }
 var q = [ "Q0", "Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9" ];
-var r = [ "A1", "A1", "A3", "A3", "A1", "A1", "A0", "A0", "A1", "A1" ];
+var r = [ "A0", "A1", "A2", "A3", "A2", "A2", "A3", "A1", "A1", "A2" ];
 displayresult = 1;
 function checkTest() { 
 var bal = 0; 
