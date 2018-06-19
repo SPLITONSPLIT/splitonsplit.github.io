@@ -14,6 +14,6 @@ for (var i=0;i<q.length;i++) {
      I(q[i]).style.background="#d7ffb9"; 
    } else I(q[i]).style.background="#ffc0b9"; 
 } 
-I('test_result').innerHTML='<h3>Тест завершен!</h3><strong>Всего вопросов:</strong> '+q.length+'<br /><strong>Правильных ответов:</strong> '+bal+'<br /><a style="border-bottom: 1px dotted; cursor: pointer;" onClick="window.location.reload(true);">Пройти еще раз</a>'; 
+I('test_result').innerHTML='<h3>Тест завершен. Ваш результат плохо!</h3><strong>Всего вопросов:</strong> '+q.length+'<br /><strong>Правильных ответов:</strong> '+bal+'<br /><a style="border-bottom: 1px dotted; cursor: pointer;" onClick="window.location.reload(true);">Пройти еще раз</a>'; 
 I('test_result').scrollIntoView(); 
 }
